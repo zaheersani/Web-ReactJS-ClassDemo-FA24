@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import MyComp3 from './MyComp';
+// import {MyComp as MyImportedComp, MyComp2} from './MyComp';
+
+import MyComp3, {MyComp, MyComp2} from './MyComp';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <MyComp />
+    <MyComp2 />
+    <MyComp3 />
   </React.StrictMode>
 );
 
