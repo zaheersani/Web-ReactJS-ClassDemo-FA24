@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Counter from './Counter';
+
 // import MyComp3 from './MyComp';
 // import {MyComp as MyImportedComp, MyComp2} from './MyComp';
 
@@ -13,9 +15,24 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <MyComp />
-    <MyComp2 />
-    <MyComp3 />
+
+    <Counter init={10} />
+    <Counter />
+    
+    {/* <MyComp 
+      text="First" 
+      num={6}
+      user={{name: 'John', age: 25}} 
+      style={{color: 'red'}}
+    />
+    <MyComp 
+      text="Second" 
+      num={7}
+      user={{name: 'John', age: 25}} 
+      style={{color: 'blue'}}
+    /> */}
+    {/* <MyComp2 />
+    <MyComp3 /> */}
   </React.StrictMode>
 );
 

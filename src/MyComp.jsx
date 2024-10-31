@@ -1,6 +1,8 @@
-const MyComp = () => {
-    return <h1>My First Component</h1>
+const MyComp = (props) => {
+    console.log(props)
+    return <h1 style={props.style}>My {props.text} Component! {props.num}th</h1>
   }
+
   let x = 10
   const myjsx = <span>This {x} is my JSX</span>
   
