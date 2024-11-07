@@ -22,12 +22,12 @@ button {
 }
 
 .button-primary {
-  background-color: #6e88a3;
+  background-color: #34b153;
   color: white;
 }
 
 .button-disabled {
-  background-color: #ccc;
+  background-color: #651111;
   color: white;
 }
 

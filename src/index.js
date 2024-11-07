@@ -16,8 +16,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
 
-    <Counter init={10} />
-    <Counter />
+    <Counter init={0} />
+    {/* <Counter /> */}
     
     {/* <MyComp 
       text="First" 
