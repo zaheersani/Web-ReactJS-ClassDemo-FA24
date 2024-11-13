@@ -11,28 +11,12 @@ import Counter from './Counter';
 
 import MyComp3, {MyComp, MyComp2} from './MyComp';
 
+import Users from './UsersListing';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-
-    <Counter init={0} />
-    {/* <Counter /> */}
-    
-    {/* <MyComp 
-      text="First" 
-      num={6}
-      user={{name: 'John', age: 25}} 
-      style={{color: 'red'}}
-    />
-    <MyComp 
-      text="Second" 
-      num={7}
-      user={{name: 'John', age: 25}} 
-      style={{color: 'blue'}}
-    /> */}
-    {/* <MyComp2 />
-    <MyComp3 /> */}
+    <Users />
   </React.StrictMode>
 );
 
