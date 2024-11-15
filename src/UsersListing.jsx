@@ -51,7 +51,7 @@ const Users = () => {
 
 }
 
-
+// TODO: Add Loading... text when fetching data
 const UserDetails = () => {
     const { id } = useParams();
     const [user, setUser] = useState(null);
@@ -65,7 +65,7 @@ const UserDetails = () => {
             setUser(data);
         };
         fetchUsers();
-    }, [])
+    }, [id])
 
     console.log(user)
 
